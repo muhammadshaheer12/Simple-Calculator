@@ -1,7 +1,7 @@
 {
   "name": "m6rs2-simple-calculator",
   "version": "2.0.2",
-  "description": "",
+  "description": "A simple calculator with Typescript, Node.js and Inquirer",
   "main": "index.js",
   "type": "module",
   "bin": "index.js",
