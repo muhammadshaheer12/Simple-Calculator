@@ -1,27 +1,27 @@
-import inquirer from "inquirer";
+import inquirer from 'inquirer';
 const answer = await inquirer.prompt([
-    { message: "enter firstnumber", type: "number", name: "firstnumber" },
-    { message: "enter second number", type: "number", name: "secondnumber" },
+    { message: 'enter firstnumber', type: 'number', name: 'firstnumber' },
+    { message: 'enter second number', type: 'number', name: 'secondnumber' },
     {
-        message: "select one of the operators to perform operation",
-        type: "list",
-        name: "operator",
-        choices: ["addition", "subtraction", "multiplication", "division"],
+        message: 'select one of the operators to perform operation',
+        type: 'list',
+        name: 'operator',
+        choices: ['addition', 'subtraction', 'multiplication', 'division'],
     },
 ]);
 // conditional statement
-if (answer.operator === "addition") {
+if (answer.operator === 'addition') {
     console.log(answer.firstnumber + answer.secondnumber);
 }
-else if (answer.operator === "subtraction") {
+else if (answer.operator === 'subtraction') {
     console.log(answer.firstnumber - answer.secondnumber);
 }
-else if (answer.operator === "multiplication") {
+else if (answer.operator === 'multiplication') {
     console.log(answer.firstnumber * answer.secondnumber);
 }
-else if (answer.operator === "division") {
+else if (answer.operator === 'division') {
     console.log(answer.firstnumber / answer.secondnumber);
 }
 else {
-    console.log("please select valid operator");
+    console.log('please select a valid operator');
 }

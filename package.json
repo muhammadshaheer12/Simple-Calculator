@@ -1,9 +1,10 @@
 {
-  "name": "simple-calculator",
-  "version": "1.0.0",
-  "description": "A simple calculator with Typescript, Node.js and Inquirer",
+  "name": "m6rs2-simple-calculator",
+  "version": "2.0.2",
+  "description": "",
   "main": "index.js",
   "type": "module",
+  "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
