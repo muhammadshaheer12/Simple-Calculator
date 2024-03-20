@@ -20,6 +20,6 @@ choices: ['addition','subtraction','multiplication','division'],
 } else if (answer.operator === 'division') {
     console.log(answer.firstnumber / answer.secondnumber);
 } else {
-    console.log('please select a valid operator')
+    console.log('please select a valid operator');
 }
 console.log('the end');
