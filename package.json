@@ -1,6 +1,6 @@
 {
-  "name": "muhammadshaheer12-simple-calculator",
-  "version": "2.0.3",
+  "name": "muhammad-shaheer-12-simple-calculator",
+  "version": "2.0.2",
   "description": "A simple calculator with Typescript, Node.js and Inquirer",
   "main": "index.js",
   "type": "module",
